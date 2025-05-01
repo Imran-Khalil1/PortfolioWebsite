@@ -19,82 +19,82 @@ const SkillPage = () => {
         <div id="tags">
           <ul>
             <li>
-              <a href="/skills">javascript</a>
+              <a href="/skills">Requirement Elicitation</a>
             </li>
             <li>
-              <a href="/skills">react</a>
+              <a href="/skills">Product Roadmapping</a>
             </li>
             <li>
-              <a href="/skills">html</a>
+              <a href="/skills">Backlog Refinement</a>
             </li>
             <li>
-              <a href="/skills">css</a>
+              <a href="/skills">Risk Management</a>
             </li>
             <li>
-              <a href="/skills">material ui</a>
+              <a href="/skills">Team Coaching</a>
             </li>
             <li>
-              <a href="/skills">github</a>
+              <a href="/skills">Stakeholder Management</a>
             </li>
             <li>
-              <a href="/skills">vs code</a>
+              <a href="/skills">Project Planning</a>
             </li>
             <li>
-              <a href="/skills">bootstrap</a>
+              <a href="/skills">Business Analysis</a>
             </li>
             <li>
-              <a href="/skills">agile</a>
+              <a href="/skills">Change Management</a>
             </li>
             <li>
-              <a href="/skills">testing</a>
+              <a href="/skills">Agile Excellence</a>
             </li>
             <li>
-              <a href="/skills">scrum</a>
+              <a href="/skills">Feature Prioritization</a>
             </li>
             <li>
-              <a href="/skills">react-routing</a>
+              <a href="/skills">Estimation & Grooming</a>
             </li>
             <li>
-              <a href="/skills">react</a>
+              <a href="/skills">Resolving Impediments</a>
             </li>
             <li>
-              <a href="/skills">es6+</a>
+              <a href="/skills">LEAN</a>
             </li>
             <li>
-              <a href="/skills">javascript</a>
+              <a href="/skills">Jira</a>
             </li>
             <li>
-              <a href="/skills">react</a>
+              <a href="/skills">Metabase</a>
             </li>
             <li>
-              <a href="/skills">html</a>
+              <a href="/skills">Google Analytics</a>
             </li>
             <li>
-              <a href="/skills">css</a>
+              <a href="/skills">Github</a>
             </li>
             <li>
-              <a href="/skills">github</a>
+              <a href="/skills">Resource Allocation</a>
             </li>
             <li>
-              <a href="/skills">vs code</a>
+              <a href="/skills">Documentation</a>
             </li>
             <li>
-              <a href="/skills">website</a>
+              <a href="/skills">Confluence</a>
             </li>
             <li>
-              <a href="/skills">trello</a>
+              <a href="/skills">Workflows</a>
             </li>
             <li>
-              <a href="/skills">react</a>
+              <a href="/skills">Delivery Manager</a>
             </li>
             <li>
-              <a href="/skills">javascript</a>
+              <a href="/skills">PSM 1</a>
             </li>
             <li>
-              <a href="/skills">react</a>
+              <a href="/skills">Six Sigma Yellow Belt</a>
             </li>
             <li>
-              <a href="/skills">es6+</a>
+              <a href="/skills">Product Management</a>
             </li>
           </ul>
         </div>

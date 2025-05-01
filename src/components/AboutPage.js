@@ -9,23 +9,18 @@ const AboutPage = () => {
       </div>
       <div className="about-info">
         <div className="about-left">
-        A software engineer, a web developer, a tester, and an agile enthusiast!
+          A Software Engineer turned Business Analyst with a passion for Agile!
         </div>
         <div className="about-right">
           <p>
-            I'm Imran Khalil. I am a <span>Software Developer</span>. I have
-            done my Bachelors Degree in Software Engineering from{" "}
-            <span>Bahria University</span>, Islamabad.
-          </p>
-          <p>
-            I specialize in efficient <span>React</span> apps using
-            <span> Material UI</span> & <span>Bootstrap</span> that just work across all
-            platforms and browsers. I care deeply about building interfaces that
-            are usable and pleasant for the most number of people possible.
-          </p>
-          <p>
-            Right now, I’m excited about improving skills on writing good
-            <span> test cases</span> and becoming a <span>Agile practitioner</span>.
+            I’m Imran Khalil, a <span>Software Engineer</span> turned{" "}
+            <span>Business Analyst</span> with a passion for <span>Agile</span>.
+            As a true Agilist, I thrive on driving product success and making a
+            meaningful impact. I’m dedicated to motivating teams, fostering
+            self-organization, and creating an environment where innovation can
+            flourish. In addition to being a Business Analyst, I also take on{" "}
+            <span>Delivery Management</span> roles, ensuring projects are
+            delivered on time, within scope, and exceed expectations.
           </p>
         </div>
       </div>

@@ -19,7 +19,7 @@ const HomePage = () => {
             this is<span> Imran</span>,
           </p>
         </div>
-        <span>a software engineer .</span>
+        <span>a Tech savvy Agile Enthusiast .</span>
       </div>
       <div className="home-page-footer">
         <a

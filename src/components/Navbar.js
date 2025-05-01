@@ -6,82 +6,57 @@ import "./Navbar.css";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+
   return (
     <div className="navbar-container">
-      {/* <div className="navbar-left">
-        <Link to="home" spy={true} smooth={true} duration={500}>
-          vasu.awasthi
-        </Link>
-      </div> */}
+      {/* Mobile Menu */}
       <div className="navbar-right-menubar">
         {isMenuOpen ? (
           <div className="navbar-menu-options">
             <CloseIcon onClick={() => setIsMenuOpen(!isMenuOpen)} />
-            <Link
-              onClick={() => setIsMenuOpen(!isMenuOpen)}
-              to="home"
-              spy={true}
-              smooth={true}
-              duration={500}
-            >
+            <Link onClick={() => setIsMenuOpen(false)} to="home" spy={true} smooth={true} duration={500}>
               home
             </Link>
-            <Link
-              onClick={() => setIsMenuOpen(!isMenuOpen)}
-              to="about"
-              spy={true}
-              smooth={true}
-              duration={500}
-            >
+            <Link onClick={() => setIsMenuOpen(false)} to="about" spy={true} smooth={true} duration={500}>
               about
             </Link>
-            <Link
-              onClick={() => setIsMenuOpen(!isMenuOpen)}
-              to="skills"
-              spy={true}
-              smooth={true}
-              duration={500}
-            >
+            <Link onClick={() => setIsMenuOpen(false)} to="skills" spy={true} smooth={true} duration={500}>
               skills
             </Link>
-            <Link
-              onClick={() => setIsMenuOpen(!isMenuOpen)}
-              to="projects"
-              spy={true}
-              smooth={true}
-              duration={500}
-            >
+            <Link onClick={() => setIsMenuOpen(false)} to="projects" spy={true} smooth={true} duration={500}>
               projects
             </Link>
-            <Link
-              onClick={() => setIsMenuOpen(!isMenuOpen)}
-              to="education"
-              spy={true}
-              smooth={true}
-              duration={500}
-            >
+            <Link onClick={() => setIsMenuOpen(false)} to="experience" spy={true} smooth={true} duration={500}>
+              experience
+            </Link>
+            <Link onClick={() => setIsMenuOpen(false)} to="education" spy={true} smooth={true} duration={500}>
               education
             </Link>
           </div>
         ) : (
-          <MenuIcon onClick={() => setIsMenuOpen(!isMenuOpen)} />
+          <MenuIcon onClick={() => setIsMenuOpen(true)} />
         )}
       </div>
+
+      {/* Desktop Menu */}
       <div className="navbar-right-options">
         <Link to="home" spy={true} smooth={true} duration={500}>
-          home
+          Home
         </Link>
         <Link to="about" spy={true} smooth={true} duration={500}>
-          about
+          About
         </Link>
         <Link to="skills" spy={true} smooth={true} duration={500}>
-          skills
+          Skills
         </Link>
         <Link to="projects" spy={true} smooth={true} duration={500}>
-          projects
+          Projects
+        </Link>
+        <Link to="experience" spy={true} smooth={true} duration={500}>
+          Experience
         </Link>
         <Link to="education" spy={true} smooth={true} duration={500}>
-          education
+          Education
         </Link>
       </div>
     </div>

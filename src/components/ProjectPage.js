@@ -9,31 +9,31 @@ const ProjectPage = () => {
       </div>
       <div className="project-list">
         <div className="project">
-          <p>E-commerce Application</p>
-          <p>Shopping App</p>
+          <p>Financial Intelligence Platform</p>
+          <p>Mubasher.Info</p>
           <p>
-            <span>2023</span>
-            <a href="https://github.com/Imran-Khalil1/Portfolio/tree/main/Shopping%20App">
+            <span>Web</span>
+            <a href="https://www.mubasher.info/countries/sa">
               Tap to view
             </a>
           </p>
         </div>
         <div className="project">
-          <p>Dice game</p>
-          <p>Tenzies</p>
+          <p>Financial Intelligence Platform</p>
+          <p>Mubasher.Info iOS & Android</p>
           <p>
-            <span>2022</span>
-            <a href="https://github.com/Imran-Khalil1/Portfolio/tree/main/Tenzies%20Game">
+            <span>Mobile</span>
+            <a href="https://apps.apple.com/us/app/mubasher-info/id6472443851">
               Tap to view
             </a>
           </p>
         </div>
         <div className="project">
-          <p>Workspace Management Application</p>
-          <p>Cowork</p>
+          <p>Charitable Healthcare Platform</p>
+          <p>Shefa.sa</p>
           <p>
-            <span>2023</span>
-            <a href="https://github.com/Imran-Khalil1/Portfolio/tree/main/Cowork%20Frontend">
+            <span>Web</span>
+            <a href="https://shefa.sa/home">
               Tap to view
             </a>
           </p>

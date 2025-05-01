@@ -54,6 +54,6 @@
 }
 
 .about-right > p > span {
-  color: white;
+  color: white; /* Changed from var(--section-color) to white */
   font-weight: 700;
 }
