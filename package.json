@@ -1,5 +1,6 @@
 {
   "homepage": "https://imran-khalil1.github.io/PortfolioWebsite",
+  
   "name": "my-portfolio",
   "version": "0.1.0",
   "private": true,
@@ -19,6 +20,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "start-custom": "react-scripts --openssl-legacy-provider start",
     "build": "react-scripts build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
